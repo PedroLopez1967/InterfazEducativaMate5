@@ -50,7 +50,7 @@ export default function SeriesTermsPlot({ terms, title = 'Términos de la Serie'
             labelFormatter={(label) => `n = ${label}`}
           />
           <Bar dataKey="value" radius={[4, 4, 0, 0]}>
-            {data.map((entry, index) => (
+            {data.map((_entry, index) => (
               <Cell key={`cell-${index}`} fill={getBarColor(index)} />
             ))}
           </Bar>
