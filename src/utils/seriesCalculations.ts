@@ -1,5 +1,3 @@
-import { evaluate } from 'mathjs';
-
 /**
  * Calcula los primeros n términos de una serie
  */
